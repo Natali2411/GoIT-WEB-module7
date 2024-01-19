@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "goit-web-module7"
+version = "0.1.0"
+description = ""
+authors = ["Nataliia Tiutiunnyk <nat.tiutiunnyk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.25"
+alembic = "^1.13.1"
+python-dotenv = "^1.0.0"
+psycopg2 = "^2.9.9"
+asyncpg = "^0.29.0"
+faker = "^22.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
